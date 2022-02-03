@@ -1,0 +1,42 @@
+{
+  "name": "cypress-tests-with-allure-reporter",
+  "version": "1.0.0",
+  "description": "cypress tests with allure reporter",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --env allure=true,allureResultsPath=cypress/allure-results",
+    "allure:report": "allure generate cypress/allure-results --clean -o cypress/allure-report",
+    "allure:clear": "rm -rf cypress/allure-results cypress/allure-report/ && rm -rf cypress/allure-results/ cypress/allure-report/ && rm -rf cypress/screenshots && rm -rf cypress/videos",
+    "pretest": "npm run allure:clear",
+    "test": "npm run cy:run || npm run posttest",
+    "posttest": "npm run allure:report",
+    "telegram-massage-pass": "./node_modules/.bin/cypress run --config-file cypress_messenger.json --env message='Greetings! UI Tests are successfully passed on RealWorld App. ' cypress/messenger/telegram.spec.js",
+    "telegram-massage-fail": "./node_modules/.bin/cypress run --config-file cypress_messenger.json --env message='Alarm! UI Tests are failed on RealWorld App. ' cypress/messenger/telegram.spec.js ",
+    "scripts": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "lazur.niko@gmail.com",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "cypress": "^8.7.0"
+  },
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.2",
+    "allure-commandline": "^2.17.2",
+    "apt": "^0.0.2",
+    "cypress-multi-reporters": "^1.5.0",
+    "docker": "^1.0.0",
+    "mocha": "^9.2.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.0.1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://angular.realworld.io",
+  "integrationFolder": "cypress/messenger",
+  "video": false,
+  "message": ""
+}
