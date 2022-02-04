@@ -5,7 +5,7 @@
     "**/2-advanced-examples/*.js"
   ],
   "env": {
-    "allureResultsPath": "cypress/allure-results"
+    "allureResultsPath": "./allure-results"
   },
   "projectId": "5c9usj"
 }
