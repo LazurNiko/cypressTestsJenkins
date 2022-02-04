@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "`cy.type()` failed because it targeted a disabled element.\n\nThe element typed into was:\n\n  > <input class=\"form-control form-control-lg ng-valid ng-dirty ng-touched\" formcontrolname=\"username\" placeholder=\"Username\" type=\"text\">\n\nEnsure the element does not have an attribute named `disabled` before typing into it.\n\nhttps://on.cypress.io/type",
+      "children" : [ {
+        "name" : "User should have an ability to change username",
+        "uid" : "ccaf140c287726fb",
+        "parentUid" : "7397c42417b1ccf5bb56d1e6bb73983c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643959989250,
+          "stop" : 1643959994313,
+          "duration" : 5063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7397c42417b1ccf5bb56d1e6bb73983c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,136 @@
+{
+  "ba330e26d11e12c6dfdfd58fbf0efde2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2ce5c811ef1de43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643959994488,
+        "stop" : 1643960001917,
+        "duration" : 7429
+      }
+    } ]
+  },
+  "00c0a7ffb74d749b09f9179a69b609ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82ca07339efa5bb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643959979760,
+        "stop" : 1643959989147,
+        "duration" : 9387
+      }
+    } ]
+  },
+  "6821f9d6ad660a4928046aff6d9ccc9f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "552abd25ad1c7961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643960011533,
+        "stop" : 1643960016862,
+        "duration" : 5329
+      }
+    } ]
+  },
+  "e35cb115014fca268ad1be11f54344a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e91d56fd09119481",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643960022031,
+        "stop" : 1643960028077,
+        "duration" : 6046
+      }
+    } ]
+  },
+  "f920d014cde5c9ae6c78dfd22b3c19af" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccaf140c287726fb",
+      "status" : "failed",
+      "statusDetails" : "`cy.type()` failed because it targeted a disabled element.\n\nThe element typed into was:\n\n  > <input class=\"form-control form-control-lg ng-valid ng-dirty ng-touched\" formcontrolname=\"username\" placeholder=\"Username\" type=\"text\">\n\nEnsure the element does not have an attribute named `disabled` before typing into it.\n\nhttps://on.cypress.io/type",
+      "time" : {
+        "start" : 1643959989250,
+        "stop" : 1643959994313,
+        "duration" : 5063
+      }
+    } ]
+  },
+  "9e7987e4a49a6368fd411f06972f8fac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1388ed14ab56c5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643959952131,
+        "stop" : 1643959961318,
+        "duration" : 9187
+      }
+    } ]
+  },
+  "9c885f6b591c56d674686c0d347ca822" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5b15f4529b96fdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643959961404,
+        "stop" : 1643959970067,
+        "duration" : 8663
+      }
+    } ]
+  }
+}

@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 04 09:33:14 EET 2022","Fri Feb 04 09:33:21 EET 2022","7429","","Settings","","","","User should have an ability to add the image in profile settings",""
+"passed","Fri Feb 04 09:32:32 EET 2022","Fri Feb 04 09:32:41 EET 2022","9187","","Article","","","","User should have an ability to create new article",""
+"passed","Fri Feb 04 09:32:59 EET 2022","Fri Feb 04 09:33:09 EET 2022","9387","","Settings","","","","User should have an ability to edit the email and password in profile settings",""
+"passed","Fri Feb 04 09:32:41 EET 2022","Fri Feb 04 09:32:50 EET 2022","8663","","Article","","","","User should be able to delete article",""
+"failed","Fri Feb 04 09:33:09 EET 2022","Fri Feb 04 09:33:14 EET 2022","5063","","Settings","","","","User should have an ability to change username",""
+"passed","Fri Feb 04 09:33:42 EET 2022","Fri Feb 04 09:33:48 EET 2022","6046","","Signup","","","","New user should be able to signIn",""
+"passed","Fri Feb 04 09:33:31 EET 2022","Fri Feb 04 09:33:36 EET 2022","5329","","Signin","","","","New user should be able to signin",""
