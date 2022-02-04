@@ -6,7 +6,8 @@
   "scripts": {
     "cy:run": "cypress run --env allure=true,allureResultsPath=cypress/allure-results",
     "allure:report": "allure generate cypress/allure-results --clean -o cypress/allure-report",
-    
+    "allure:clear": "rm -rf cypress/allure-results cypress/allure-report/ && rm -rf cypress/allure-results/ cypress/allure-report/ && rm -rf cypress/screenshots && rm -rf cypress/videos",
+    "pretest": "npm run allure:clear",
     "test": "npm run cy:run || npm run posttest",
     "posttest": "npm run allure:report",
     "telegram-massage-pass": "./node_modules/.bin/cypress run --config-file cypress_messenger.json --env message='Greetings! UI Tests are successfully passed on RealWorld App. ' cypress/messenger/telegram.spec.js",
