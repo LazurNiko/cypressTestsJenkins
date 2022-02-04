@@ -5,7 +5,7 @@
     "**/2-advanced-examples/*.js"
   ],
   "env": {
-    "allureResulthsPath": "allure/results"
+    "allureResulthsPath": "allure-results"
   },
   "projectId": "5c9usj"
 }
